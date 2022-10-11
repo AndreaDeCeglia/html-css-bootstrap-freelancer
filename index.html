@@ -21,8 +21,8 @@
 <body>
 
     <!-- ***** starting navbar with burger menù ***** -->
-    <nav class="navbar navbar-dark navbar-expand-lg">
-        <div class="container-fluid">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-md">
           <a class="navbar-brand" href="#">START BOOTSTRAP</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,17 +47,19 @@
     <!-- ***** jumbotron of website ***** -->
     <section id="jumbotron" class="bg-green">
         
-        <div class="container">
-            <div class="row justify-content-center text-white">
+        <div class="container-md">
+            <div class="col-md-8 offset-md-2 text-center text-white">
+                
                 <!-- avatar spot -->
                 <img src="./assets/img/avatar.svg" alt="" class="avatar" />
                 <!-- jumbotron title -->
                 <h1 class="text-center text-uppercase fw-semibold">
                     start bootstrap
                 </h1>
-                
-                <!-- line - star - line spot -->
-                <div class="d-flex justify-content-center align-items-center">
+            </div>
+
+            <!-- line - star - line spot -->
+            <div class="d-flex justify-content-center align-items-center text-white">
                 <div class="line"></div>
                 <div><i class="fa-solid fa-star m-2 fs-1"></i></div>
                 <div class="line"></div>
@@ -77,7 +79,7 @@
     
     <!-- ***** portfolio section ***** -->
     <section class="portfolio">
-        <div class="container">
+        <div class="container-md">
             
             <!-- title spot -->
             <h2 class="text-uppercase text-center mt-4">
@@ -94,36 +96,36 @@
             </div>
             
             <!-- cards' container -->
-            <div class="row">
+            <div class="row my-5 g-3">
                 
                 <!-- first card -->
-                <div class="col-12 col-md-6 col-lg-4 mt-4">
-                    <img src="./assets/img/cabin.png" alt="" class="image rounded-4" />
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./assets/img/cabin.png" alt="" class="image rounded-4 img-fluid" />
                 </div>
                 
                 <!-- second card -->
-                <div class="col-12 col-md-6 col-lg-4 mt-4">
-                    <img src="./assets/img/cake.png" alt="" class="image rounded-4" />
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./assets/img/cake.png" alt="" class="image rounded-4 img-fluid" />
                 </div>
                 
                 <!-- third card -->
-                <div class="col-12 col-md-6 col-lg-4 mt-4">
-                    <img src="./assets/img/circus.png" alt="" class="image rounded-4" />
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./assets/img/circus.png" alt="" class="image rounded-4 img-fluid" />
                 </div>
                 
                 <!-- fourth card -->
-                <div class="col-12 col-md-6 col-lg-4 mt-4">
-                    <img src="./assets/img/game.png" alt="" class="image rounded-4" />
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./assets/img/game.png" alt="" class="image rounded-4 img-fluid" />
                 </div>
                 
                 <!-- fivth card -->
-                <div class="col-12 col-md-6 col-lg-4 mt-4">
-                    <img src="./assets/img/safe.png" alt="" class="image rounded-4" />
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./assets/img/safe.png" alt="" class="image rounded-4 img-fluid" />
                 </div>
                 
                 <!-- sixth card -->
-                <div class="col-12 col-md-6 col-lg-4 mt-4">
-                    <img src="./assets/img/submarine.png" alt="" class="image rounded-4"/>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./assets/img/submarine.png" alt="" class="image rounded-4 img-fluid"/>
                 </div>
             
             </div>
@@ -267,14 +269,22 @@
                         <h3 class="text-uppercase d-flex justify-content-center fs-5 mt-4">around the web</h3>
                     
                         <div class="icons d-flex justify-content-center ">
-                        
-                            <i class="fa-brands fa-facebook-f mx-2 fs-2 p-3 "></i>
-                        
-                            <i class="fa-brands fa-google-plus-g mx-2 fs-2 p-3 "></i>
-                        
-                            <i class="fa-brands fa-twitter mx-2 fs-2 p-3 "></i>
-                        
-                            <i class="fa-brands fa-linkedin mx-2 fs-2 p-3 "></i>
+                            <div class="rounded-5 border">
+                                <i class="fa-brands fa-facebook-f mx-2 fs-2 p-3 "></i>
+                            </div>
+                            
+                            <div class="rounded-5 border">
+                                <i class="fa-brands fa-google-plus-g mx-2 fs-2 p-3 "></i>
+                            </div>
+                            
+                            <div class="rounded-5 border">
+                                <i class="fa-brands fa-twitter mx-2 fs-2 p-3 "></i>
+                            </div>
+                            
+                            <div class="rounded-5 border">
+                                <i class="fa-brands fa-linkedin mx-2 fs-2 p-3 "></i>
+                            </div>
+                            
                     
                         </div>
 
